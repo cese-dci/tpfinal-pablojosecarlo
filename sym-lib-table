@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MCU_Microchip_ATmega)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_ATmega.lib)(options "")(descr ""))
+  (lib (name Enc_Mag)(type Legacy)(uri ${KIPRJMOD}/biblioteca/Enc_Mag.lib)(options "")(descr ""))
+  (lib (name pic18f2455-iso)(type Legacy)(uri /media/pablo/PABLO_64GB/pic18f2455-iso.lib)(options "")(descr ""))
+)
