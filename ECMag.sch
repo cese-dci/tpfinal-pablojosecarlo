@@ -20,7 +20,7 @@ P 6150 3550
 F 0 "U1" H 6150 5117 50  0000 C CNN
 F 1 "ATmega328P-PU" H 6150 5026 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 7100 1950 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 6150 4000 50  0001 C CNN
+F 3 "https://datasheetspdf.com/pdf-file/1057331/ATMEL/ATmega328/1" H 6150 4000 50  0001 C CNN
 	1    6150 3550
 	1    0    0    -1  
 $EndComp

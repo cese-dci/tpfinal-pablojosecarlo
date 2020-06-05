@@ -945,8 +945,8 @@ U 1 1 5EFEAFE5
 P 2950 2550
 F 0 "D3" V 3050 2500 50  0000 R CNN
 F 1 "LED Rojo" V 2898 2433 50  0001 R CNN
-F 2 "" H 2950 2550 50  0001 C CNN
-F 3 "~" H 2950 2550 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2950 2550 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/000/HLMP-1585-pdf.php" H 2950 2550 50  0001 C CNN
 	1    2950 2550
 	0    -1   -1   0   
 $EndComp
@@ -956,8 +956,8 @@ U 1 1 5EFEB865
 P 3350 2550
 F 0 "D4" V 3450 2500 50  0000 R CNN
 F 1 "LED Verde" V 3298 2433 50  0001 R CNN
-F 2 "" H 3350 2550 50  0001 C CNN
-F 3 "~" H 3350 2550 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3350 2550 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/000/HLMP-1585-pdf.php" H 3350 2550 50  0001 C CNN
 	1    3350 2550
 	0    -1   -1   0   
 $EndComp
