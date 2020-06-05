@@ -108,4 +108,10 @@ K Flash-Based 8-Bit Microcontroller XLP
 F http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf
 $ENDCMP
 #
+$CMP USB_B
+D USB Type B connector
+K connector USB
+F  ~
+$ENDCMP
+#
 #End Doc Library
