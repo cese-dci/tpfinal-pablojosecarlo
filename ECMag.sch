@@ -14,17 +14,6 @@ Comment3 "CESE 10º Cohorte"
 Comment4 "Diseño de Circuitos Impresos"
 $EndDescr
 $Comp
-L Enc_Mag:ATmega328P-PU U1
-U 1 1 5EB76DFF
-P 6150 3550
-F 0 "U1" H 6150 5117 50  0000 C CNN
-F 1 "ATmega328P-PU" H 6150 5026 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 7100 1950 50  0001 C CIN
-F 3 "https://datasheetspdf.com/pdf-file/1057331/ATMEL/ATmega328/1" H 6150 4000 50  0001 C CNN
-	1    6150 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C6
 U 1 1 5EBAB82B
 P 7100 5000
@@ -249,38 +238,35 @@ $EndComp
 $Comp
 L Device:CP C1
 U 1 1 5EC11980
-P 3900 6500
-F 0 "C1" H 4018 6500 50  0000 L CNN
-F 1 "220uF 25v HT" H 4018 6455 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3938 6350 50  0001 C CNN
-F 3 "http://www.paullinebarger.net/DS/Samxon/Samxon%20%5Bradial%20thru-hole%5D%20GK%20Series.pdf" H 3900 6500 50  0001 C CNN
-	1    3900 6500
+P 3850 6450
+F 0 "C1" H 3968 6450 50  0000 L CNN
+F 1 "220uF 25v HT" H 3968 6405 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3888 6300 50  0001 C CNN
+F 3 "http://www.paullinebarger.net/DS/Samxon/Samxon%20%5Bradial%20thru-hole%5D%20GK%20Series.pdf" H 3850 6450 50  0001 C CNN
+	1    3850 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5EC1198A
-P 4200 6500
-F 0 "C2" H 4315 6500 50  0000 L CNN
-F 1 "100nF Cerámico" H 4315 6455 50  0001 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 4238 6350 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 4200 6500 50  0001 C CNN
-	1    4200 6500
+P 4200 6450
+F 0 "C2" H 4315 6450 50  0000 L CNN
+F 1 "330nF Cerámico" H 4315 6405 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 4238 6300 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 4200 6450 50  0001 C CNN
+	1    4200 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5650 6450 5650 6550
 Wire Wire Line
 	4600 5850 4500 5850
-Wire Wire Line
-	4200 5850 3900 5850
-Connection ~ 4200 5850
 $Comp
 L Enc_Mag:Potenciometro P1
 U 1 1 5EC42506
 P 5650 6250
 F 0 "P1" V 5650 6180 50  0000 R CNN
-F 1 "10K" V 5695 6180 50  0001 R CNN
+F 1 "25K" V 5695 6180 50  0001 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5750 6350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3266.pdf" H 5750 6350 50  0001 C CNN
 	1    5650 6250
@@ -317,7 +303,7 @@ L Enc_Mag:Resistencia R1
 U 1 1 5ECCC2F5
 P 5650 6750
 F 0 "R1" V 5650 6838 50  0000 L CNN
-F 1 "330 1%" V 5695 6838 50  0001 L CNN
+F 1 "2K 1%" V 5695 6838 50  0001 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5650 6850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 5650 6850 50  0001 C CNN
 	1    5650 6750
@@ -415,16 +401,16 @@ F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 4775 3225 50  00
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5200 6300 5200 5850
+	5200 6100 5200 5850
 $Comp
 L power:+5V #PWR0114
 U 1 1 5ED50721
-P 3900 5800
-F 0 "#PWR0114" H 3900 5650 50  0001 C CNN
-F 1 "+5V" H 3915 5973 50  0000 C CNN
-F 2 "" H 3900 5800 50  0001 C CNN
-F 3 "" H 3900 5800 50  0001 C CNN
-	1    3900 5800
+P 3850 5800
+F 0 "#PWR0114" H 3850 5650 50  0001 C CNN
+F 1 "+5V" H 3865 5973 50  0000 C CNN
+F 2 "" H 3850 5800 50  0001 C CNN
+F 3 "" H 3850 5800 50  0001 C CNN
+	1    3850 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -442,16 +428,14 @@ Connection ~ 6350 5850
 $Comp
 L power:GND #PWR0116
 U 1 1 5EDA8A1C
-P 4050 4900
-F 0 "#PWR0116" H 4050 4650 50  0001 C CNN
-F 1 "GND" H 4055 4727 50  0001 C CNN
-F 2 "" H 4050 4900 50  0001 C CNN
-F 3 "" H 4050 4900 50  0001 C CNN
-	1    4050 4900
+P 4000 4950
+F 0 "#PWR0116" H 4000 4700 50  0001 C CNN
+F 1 "GND" H 4005 4777 50  0001 C CNN
+F 2 "" H 4000 4950 50  0001 C CNN
+F 3 "" H 4000 4950 50  0001 C CNN
+	1    4000 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 4900 4000 4900
 Wire Notes Line
 	3900 4950 3900 3750
 Wire Notes Line
@@ -897,7 +881,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4800 2750 4800
 Wire Notes Line
-	4250 3550 4250 5100
+	4300 3550 4300 5100
 Wire Notes Line
 	950  5100 950  3550
 Wire Wire Line
@@ -906,26 +890,6 @@ Wire Notes Line
 	3250 5500 3250 7300
 Wire Notes Line
 	950  7300 950  5500
-Wire Wire Line
-	4000 3900 5550 3900
-Wire Wire Line
-	4000 4000 5550 4000
-Wire Wire Line
-	4000 4100 5550 4100
-Wire Wire Line
-	4000 4200 5550 4200
-Wire Wire Line
-	4000 4300 5550 4300
-Wire Wire Line
-	4000 4400 5550 4400
-Wire Wire Line
-	4000 4500 5550 4500
-Wire Wire Line
-	4000 4600 5550 4600
-Wire Wire Line
-	4000 4700 5550 4700
-Wire Wire Line
-	4000 4800 5550 4800
 $Comp
 L power:GND #PWR0134
 U 1 1 5EFD5842
@@ -1133,12 +1097,12 @@ $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5EC1C858
-P 3900 7100
-F 0 "#PWR0107" H 3900 6850 50  0001 C CNN
-F 1 "GND" H 3905 6927 50  0001 C CNN
-F 2 "" H 3900 7100 50  0001 C CNN
-F 3 "" H 3900 7100 50  0001 C CNN
-	1    3900 7100
+P 3850 7100
+F 0 "#PWR0107" H 3850 6850 50  0001 C CNN
+F 1 "GND" H 3855 6927 50  0001 C CNN
+F 2 "" H 3850 7100 50  0001 C CNN
+F 3 "" H 3850 7100 50  0001 C CNN
+	1    3850 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1152,36 +1116,14 @@ F 3 "" H 4200 7100 50  0001 C CNN
 	1    4200 7100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Enc_Mag:XL6009 U3
-U 1 1 5EBFD02E
-P 4850 6600
-F 0 "U3" H 4850 7167 50  0000 C CNN
-F 1 "XL6009" H 4850 7076 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin6" H 4850 7050 50  0001 C CNN
-F 3 "https://www.vistronica.com/index.php?controller=attachment&id_attachment=257" H 4850 7050 50  0001 C CNN
-	1    4850 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 5850 4500 6300
 Wire Wire Line
 	6000 6650 6000 7100
 Wire Wire Line
 	6350 6650 6350 7100
-Wire Wire Line
-	4500 6300 4500 6450
-Connection ~ 4500 6300
-Wire Wire Line
-	4500 6900 4500 7100
 Wire Notes Line
 	3250 3550 3250 5100
 Wire Notes Line
-	4250 3550 3550 3550
-Wire Notes Line
 	3550 3550 3550 5100
-Wire Notes Line
-	3550 5100 4250 5100
 $Comp
 L Connector_Generic:Conn_01x05 J2
 U 1 1 5F0FD4DA
@@ -1460,15 +1402,12 @@ Wire Wire Line
 	6000 5850 6350 5850
 Connection ~ 6000 5850
 Wire Wire Line
-	4200 5850 4500 5850
-Connection ~ 4500 5850
-Wire Wire Line
-	5200 6600 5400 6600
+	5200 6400 5400 6400
 Wire Wire Line
 	6350 5850 6350 5800
 Wire Wire Line
-	3900 5850 3900 5800
-Connection ~ 3900 5850
+	3850 5850 3850 5800
+Connection ~ 3850 5850
 NoConn ~ 1400 2750
 $Comp
 L Enc_Mag:Resistencia R10
@@ -1488,13 +1427,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 6600 2850 6800
 Wire Wire Line
-	4200 5850 4200 6350
-Wire Wire Line
-	3900 5850 3900 6350
-Wire Wire Line
-	4200 6650 4200 7100
-Wire Wire Line
-	3900 6650 3900 7100
+	3850 5850 3850 6300
 Wire Wire Line
 	5600 5850 5650 5850
 Wire Wire Line
@@ -1505,7 +1438,189 @@ Wire Wire Line
 Wire Wire Line
 	5450 6250 5400 6250
 Wire Wire Line
-	5400 6250 5400 6600
+	5400 6250 5400 6400
 Wire Wire Line
 	5650 7100 5650 6950
+Wire Wire Line
+	4000 4900 4000 4950
+$Comp
+L Enc_Mag:ATmega328P-PU U1
+U 1 1 5EB76DFF
+P 6150 3550
+F 0 "U1" H 6150 5117 50  0000 C CNN
+F 1 "ATmega328P-PU" H 6150 5026 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 7100 1950 50  0001 C CIN
+F 3 "https://datasheetspdf.com/pdf-file/1057331/ATMEL/ATmega328/1" H 6150 4000 50  0001 C CNN
+	1    6150 3550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4150 3900 4250 4000
+Entry Wire Line
+	4150 4000 4250 4100
+Entry Wire Line
+	5400 3900 5300 4000
+Entry Wire Line
+	5400 4000 5300 4100
+Wire Wire Line
+	5400 3900 5550 3900
+Wire Wire Line
+	5400 4000 5550 4000
+Wire Wire Line
+	4150 3900 4000 3900
+Wire Wire Line
+	4000 4000 4150 4000
+Text Label 4050 3900 0    50   ~ 0
+a1
+Text Label 4050 4000 0    50   ~ 0
+a2
+Text Label 5400 3900 0    50   ~ 0
+a1
+Text Label 5400 4000 0    50   ~ 0
+a2
+Entry Wire Line
+	4150 4100 4250 4200
+Entry Wire Line
+	4150 4200 4250 4300
+Entry Wire Line
+	4150 4300 4250 4400
+Entry Wire Line
+	4150 4400 4250 4500
+Entry Wire Line
+	4150 4500 4250 4600
+Entry Wire Line
+	4150 4600 4250 4700
+Entry Wire Line
+	4150 4700 4250 4800
+Entry Wire Line
+	4150 4800 4250 4900
+Entry Wire Line
+	5400 4100 5300 4200
+Entry Wire Line
+	5400 4200 5300 4300
+Entry Wire Line
+	5400 4300 5300 4400
+Entry Wire Line
+	5400 4400 5300 4500
+Entry Wire Line
+	5400 4500 5300 4600
+Entry Wire Line
+	5400 4600 5300 4700
+Entry Wire Line
+	5400 4700 5300 4800
+Entry Wire Line
+	5400 4800 5300 4900
+Wire Wire Line
+	5550 4100 5400 4100
+Wire Wire Line
+	5550 4200 5400 4200
+Wire Wire Line
+	5550 4400 5400 4400
+Wire Wire Line
+	5550 4500 5400 4500
+Wire Wire Line
+	5550 4600 5400 4600
+Wire Wire Line
+	5550 4700 5400 4700
+Wire Wire Line
+	5400 4800 5550 4800
+Wire Bus Line
+	5300 5000 4250 5000
+Wire Wire Line
+	5400 4300 5550 4300
+Wire Wire Line
+	4000 4100 4150 4100
+Wire Wire Line
+	4000 4200 4150 4200
+Wire Wire Line
+	4000 4300 4150 4300
+Wire Wire Line
+	4150 4400 4000 4400
+Wire Wire Line
+	4150 4500 4000 4500
+Wire Wire Line
+	4150 4600 4000 4600
+Wire Wire Line
+	4150 4700 4000 4700
+Wire Wire Line
+	4150 4800 4000 4800
+Text Label 4050 4100 0    50   ~ 0
+a3
+Text Label 4050 4200 0    50   ~ 0
+a4
+Text Label 4050 4300 0    50   ~ 0
+a5
+Text Label 4050 4400 0    50   ~ 0
+a6
+Text Label 4050 4500 0    50   ~ 0
+a7
+Text Label 4050 4600 0    50   ~ 0
+a8
+Text Label 4050 4700 0    50   ~ 0
+a9
+Text Label 4050 4800 0    50   ~ 0
+a10
+Text Label 5400 4100 0    50   ~ 0
+a3
+Text Label 5400 4200 0    50   ~ 0
+a4
+Text Label 5400 4300 0    50   ~ 0
+a5
+Text Label 5400 4400 0    50   ~ 0
+a6
+Text Label 5400 4500 0    50   ~ 0
+a7
+Text Label 5400 4600 0    50   ~ 0
+a8
+Text Label 5400 4700 0    50   ~ 0
+a9
+Text Label 5400 4800 0    50   ~ 0
+a10
+Wire Notes Line
+	3550 3550 4300 3550
+Wire Notes Line
+	3550 5100 4300 5100
+$Comp
+L Enc_Mag:LM2577 U3
+U 1 1 5EFE77A1
+P 4850 6400
+F 0 "U3" H 4850 6850 50  0000 C CNN
+F 1 "LM2577" H 4850 5950 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 4850 6850 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm2577.pdf" H 4850 6850 50  0001 C CNN
+	1    4850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Enc_Mag:Resistencia R9
+U 1 1 5EFE8746
+P 4200 6850
+F 0 "R9" V 4200 6938 50  0000 L CNN
+F 1 "2K2 1%" V 4245 6938 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 6950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 4200 6950 50  0001 C CNN
+	1    4200 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 5850 4500 6100
+Wire Wire Line
+	4500 6700 4500 7100
+Wire Wire Line
+	4500 6250 4200 6250
+Wire Wire Line
+	4200 6250 4200 6300
+Wire Wire Line
+	4200 6600 4200 6650
+Wire Wire Line
+	4200 7050 4200 7100
+Wire Wire Line
+	3850 6600 3850 7100
+Wire Wire Line
+	3850 5850 4500 5850
+Wire Bus Line
+	4250 4000 4250 5000
+Wire Bus Line
+	5300 4000 5300 5000
+Connection ~ 4500 5850
 $EndSCHEMATC
