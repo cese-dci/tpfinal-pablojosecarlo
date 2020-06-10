@@ -17,8 +17,8 @@ $Comp
 L Device:C C6
 U 1 1 5EBAB82B
 P 7100 4800
-F 0 "C6" H 6950 4700 50  0000 L CNN
-F 1 "22pF" H 7215 4755 50  0001 L CNN
+F 0 "C6" H 7100 4900 50  0000 L CNN
+F 1 "22pF" H 7100 4700 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 7138 4650 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 7100 4800 50  0001 C CNN
 	1    7100 4800
@@ -29,18 +29,18 @@ L Device:Crystal_Small Y1
 U 1 1 5EBAC83B
 P 6950 4600
 F 0 "Y1" H 6950 4733 50  0000 C CNN
-F 1 "16MHz" H 6950 4734 50  0001 C CNN
+F 1 "16MHz" H 6950 4500 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 6950 4600 50  0001 C CNN
 F 3 "http://www.imtcrystal.com/contents_kr/cry_hc49s.pdf" H 6950 4600 50  0001 C CNN
 	1    6950 4600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 5EBC0D88
 P 6800 4800
-F 0 "C5" H 6650 4700 50  0000 L CNN
-F 1 "22pF" H 6915 4755 50  0001 L CNN
+F 0 "C5" H 6650 4900 50  0000 L CNN
+F 1 "22pF" H 6600 4700 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 6838 4650 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 6800 4800 50  0001 C CNN
 	1    6800 4800
@@ -87,7 +87,7 @@ L Device:Crystal_Small Y2
 U 1 1 5EBE2158
 P 10100 4650
 F 0 "Y2" H 10100 4783 50  0000 C CNN
-F 1 "20MHz" H 10100 4784 50  0001 C CNN
+F 1 "20MHz" H 10100 4550 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 10100 4650 50  0001 C CNN
 F 3 "http://www.imtcrystal.com/contents_kr/cry_hc49s.pdf" H 10100 4650 50  0001 C CNN
 	1    10100 4650
@@ -97,8 +97,8 @@ $Comp
 L Device:C C7
 U 1 1 5EBE2162
 P 9950 4850
-F 0 "C7" H 9800 4750 50  0000 L CNN
-F 1 "22pF" H 10065 4805 50  0001 L CNN
+F 0 "C7" H 9800 4950 50  0000 L CNN
+F 1 "22pF" H 9750 4750 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 9988 4700 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 9950 4850 50  0001 C CNN
 	1    9950 4850
@@ -130,8 +130,8 @@ $Comp
 L Enc_Mag:Inductor L1
 U 1 1 5EC00ECF
 P 4850 5850
-F 0 "L1" H 4850 6025 50  0000 C CNN
-F 1 "470uH" H 4850 6026 50  0001 C CNN
+F 0 "L1" H 4700 6000 50  0000 C CNN
+F 1 "470uH" H 5000 6000 50  0000 C CNN
 F 2 "Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P" H 4850 6000 50  0001 C CNN
 F 3 "https://www.tme.com/Document/747e1786bbec2727d8c83a3ae1373b02/07HCP%2007HCP_T.pdf" H 4850 6000 50  0001 C CNN
 	1    4850 5850
@@ -142,7 +142,7 @@ L Simulation_SPICE:DIODE D1
 U 1 1 5EC02603
 P 5450 5850
 F 0 "D1" H 5450 5975 50  0000 C CNN
-F 1 "1N5822" H 5450 5976 50  0001 C CNN
+F 1 "1N5822" H 5450 5750 50  0000 C CNN
 F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 5450 5850 50  0001 C CNN
 F 3 "http://www.acdcshop.gr/content/1N5822.pdf" H 5450 5850 50  0001 C CNN
 F 4 "Y" H 5450 5850 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -159,8 +159,8 @@ $Comp
 L Device:CP C3
 U 1 1 5EC081DA
 P 6000 6500
-F 0 "C3" H 6118 6500 50  0000 L CNN
-F 1 "220uF 25v HT" H 6118 6455 50  0001 L CNN
+F 0 "C3" H 6050 6600 50  0000 L CNN
+F 1 "220uF 25v" H 5750 6400 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6038 6350 50  0001 C CNN
 F 3 "http://www.paullinebarger.net/DS/Samxon/Samxon%20%5Bradial%20thru-hole%5D%20GK%20Series.pdf" H 6000 6500 50  0001 C CNN
 	1    6000 6500
@@ -170,8 +170,8 @@ $Comp
 L Device:C C4
 U 1 1 5EC08C4D
 P 6350 6500
-F 0 "C4" H 6465 6500 50  0000 L CNN
-F 1 "100nF Cerámico" H 6465 6455 50  0001 L CNN
+F 0 "C4" H 6400 6600 50  0000 L CNN
+F 1 "100nF" H 6400 6400 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 6388 6350 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 6350 6500 50  0001 C CNN
 	1    6350 6500
@@ -216,8 +216,8 @@ $Comp
 L Device:CP C1
 U 1 1 5EC11980
 P 3850 6450
-F 0 "C1" H 3968 6450 50  0000 L CNN
-F 1 "220uF 25v HT" H 3968 6405 50  0001 L CNN
+F 0 "C1" H 3900 6550 50  0000 L CNN
+F 1 "220uF 25v" H 3600 6350 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3888 6300 50  0001 C CNN
 F 3 "http://www.paullinebarger.net/DS/Samxon/Samxon%20%5Bradial%20thru-hole%5D%20GK%20Series.pdf" H 3850 6450 50  0001 C CNN
 	1    3850 6450
@@ -227,23 +227,21 @@ $Comp
 L Device:C C2
 U 1 1 5EC1198A
 P 4200 6450
-F 0 "C2" H 4315 6450 50  0000 L CNN
-F 1 "330nF Cerámico" H 4315 6405 50  0001 L CNN
+F 0 "C2" H 4250 6550 50  0000 L CNN
+F 1 "330nF" H 4250 6350 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 4238 6300 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 4200 6450 50  0001 C CNN
 	1    4200 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 6450 5650 6550
-Wire Wire Line
 	4600 5850 4500 5850
 $Comp
 L Enc_Mag:Potenciometro P1
 U 1 1 5EC42506
 P 5650 6250
-F 0 "P1" V 5650 6180 50  0000 R CNN
-F 1 "25K" V 5695 6180 50  0001 R CNN
+F 0 "P1" V 5600 6200 50  0000 R CNN
+F 1 "25K" V 5700 6200 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5750 6350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3266.pdf" H 5750 6350 50  0001 C CNN
 	1    5650 6250
@@ -269,7 +267,7 @@ L Enc_Mag:Resistencia R2
 U 1 1 5ECC9FB5
 P 5150 2150
 F 0 "R2" V 5104 2238 50  0000 L CNN
-F 1 "10K 5%" V 5195 2238 50  0000 L CNN
+F 1 "10K" V 5195 2238 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5150 2250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 5150 2250 50  0001 C CNN
 	1    5150 2150
@@ -278,12 +276,12 @@ $EndComp
 $Comp
 L Enc_Mag:Resistencia R1
 U 1 1 5ECCC2F5
-P 5650 6750
-F 0 "R1" V 5650 6838 50  0000 L CNN
-F 1 "2K 1%" V 5695 6838 50  0001 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5650 6850 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 5650 6850 50  0001 C CNN
-	1    5650 6750
+P 5650 6850
+F 0 "R1" V 5600 6900 50  0000 L CNN
+F 1 "2K" V 5700 6900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5650 6950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 5650 6950 50  0001 C CNN
+	1    5650 6850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -291,7 +289,7 @@ L Device:C C9
 U 1 1 5ECD2D3D
 P 5150 2800
 F 0 "C9" H 5265 2800 50  0000 L CNN
-F 1 "100nF" H 5265 2755 50  0001 L CNN
+F 1 "100nF" H 5150 2700 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 5188 2650 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 5150 2800 50  0001 C CNN
 	1    5150 2800
@@ -507,8 +505,8 @@ $Comp
 L Device:C C11
 U 1 1 5EC19034
 P 10250 3050
-F 0 "C11" H 10300 2950 50  0000 L CNN
-F 1 "100nF" H 10365 3005 50  0001 L CNN
+F 0 "C11" H 10250 3150 50  0000 L CNN
+F 1 "100nF" H 10250 2950 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 10288 2900 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 10250 3050 50  0001 C CNN
 	1    10250 3050
@@ -609,7 +607,7 @@ L Device:C C10
 U 1 1 5EBC7D72
 P 8250 2800
 F 0 "C10" H 8365 2800 50  0000 L CNN
-F 1 "100nF" H 8365 2755 50  0001 L CNN
+F 1 "100nF" H 8250 2700 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 8288 2650 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 8250 2800 50  0001 C CNN
 	1    8250 2800
@@ -620,7 +618,7 @@ L Enc_Mag:Resistencia R3
 U 1 1 5EBC7D68
 P 8250 2250
 F 0 "R3" V 8204 2338 50  0000 L CNN
-F 1 "10K 5%" V 8295 2338 50  0000 L CNN
+F 1 "10K" V 8295 2338 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8250 2350 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 8250 2350 50  0001 C CNN
 	1    8250 2250
@@ -695,8 +693,8 @@ $Comp
 L Enc_Mag:Resistencia R5
 U 1 1 5EDB9103
 P 1200 6100
-F 0 "R5" V 1200 6188 50  0000 L CNN
-F 1 "10K  5%" V 1245 6188 50  0001 L CNN
+F 0 "R5" V 1150 6150 50  0000 L CNN
+F 1 "10K" V 1250 6150 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1200 6200 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 1200 6200 50  0001 C CNN
 	1    1200 6100
@@ -706,8 +704,8 @@ $Comp
 L Enc_Mag:Resistencia R4
 U 1 1 5EDB9796
 P 1550 6100
-F 0 "R4" V 1550 6188 50  0000 L CNN
-F 1 "10K 5%" V 1595 6188 50  0001 L CNN
+F 0 "R4" V 1500 6150 50  0000 L CNN
+F 1 "10K" V 1600 6150 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1550 6200 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 1550 6200 50  0001 C CNN
 	1    1550 6100
@@ -744,21 +742,10 @@ L Transistor_BJT:BC548 Q1
 U 1 1 5EDEBFFC
 P 2650 6800
 F 0 "Q1" H 2841 6846 50  0000 L CNN
-F 1 "BC548" H 2841 6755 50  0001 L CNN
+F 1 "BC548" H 2841 6755 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 6725 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2650 6800 50  0001 L CNN
 	1    2650 6800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Buzzer BZ1
-U 1 1 5EDEDB59
-P 2450 6100
-F 0 "BZ1" H 2650 6250 50  0000 C CNN
-F 1 "Buzzer 5V 85db 2300Hz" H 2200 6100 50  0001 C CNN
-F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 2425 6200 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2171929.pdf" V 2425 6200 50  0001 C CNN
-	1    2450 6100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -817,7 +804,7 @@ L Device:LED D3
 U 1 1 5EFEAFE5
 P 2950 2550
 F 0 "D3" V 3050 2500 50  0000 R CNN
-F 1 "LED Rojo" V 2898 2433 50  0001 R CNN
+F 1 "LED R" V 2950 2850 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 2950 2550 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/000/HLMP-1585-pdf.php" H 2950 2550 50  0001 C CNN
 	1    2950 2550
@@ -828,7 +815,7 @@ L Device:LED D4
 U 1 1 5EFEB865
 P 3350 2550
 F 0 "D4" V 3450 2500 50  0000 R CNN
-F 1 "LED Verde" V 3298 2433 50  0001 R CNN
+F 1 "LED V" V 3350 2850 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 3350 2550 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/000/HLMP-1585-pdf.php" H 3350 2550 50  0001 C CNN
 	1    3350 2550
@@ -861,7 +848,7 @@ L Enc_Mag:Resistencia R6
 U 1 1 5EFEE098
 P 2950 2050
 F 0 "R6" V 2904 2138 50  0000 L CNN
-F 1 "4K7 5%" V 2995 2138 50  0001 L CNN
+F 1 "4K7" V 3100 2150 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2950 2150 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 2950 2150 50  0001 C CNN
 	1    2950 2050
@@ -872,7 +859,7 @@ L Enc_Mag:Resistencia R7
 U 1 1 5EFEF15E
 P 3350 2050
 F 0 "R7" V 3304 2138 50  0000 L CNN
-F 1 "4K7 5%" V 3395 2138 50  0001 L CNN
+F 1 "4K7" V 3500 2100 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3350 2150 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 3350 2150 50  0001 C CNN
 	1    3350 2050
@@ -1007,7 +994,7 @@ U 1 1 5F0FD4DA
 P 2250 4000
 F 0 "J2" H 2400 4000 50  0000 C CNN
 F 1 "Conn_01x05" H 2150 3650 50  0001 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 2250 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2250 4000 50  0001 C CNN
 F 3 "~" H 2250 4000 50  0001 C CNN
 	1    2250 4000
 	-1   0    0    -1  
@@ -1018,7 +1005,7 @@ U 1 1 5F10BED5
 P 2250 4700
 F 0 "J3" H 2400 4650 50  0000 C CNN
 F 1 "Conn_01x04" H 2150 4350 50  0001 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 2250 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2250 4700 50  0001 C CNN
 F 3 "~" H 2250 4700 50  0001 C CNN
 	1    2250 4700
 	-1   0    0    -1  
@@ -1029,7 +1016,7 @@ U 1 1 5F110D1D
 P 3800 4300
 F 0 "J1" H 3950 4300 50  0000 C CNN
 F 1 "Conn_01x12" H 3700 3550 50  0001 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x12_P1.27mm_Vertical" H 3800 4300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3800 4300 50  0001 C CNN
 F 3 "~" H 3800 4300 50  0001 C CNN
 	1    3800 4300
 	-1   0    0    -1  
@@ -1147,7 +1134,7 @@ L Enc_Mag:Resistencia R8
 U 1 1 5F0720DB
 P 2550 2050
 F 0 "R8" V 2504 2138 50  0000 L CNN
-F 1 "4K7 5%" V 2595 2138 50  0001 L CNN
+F 1 "4K7" V 2700 2100 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2550 2150 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 2550 2150 50  0001 C CNN
 	1    2550 2050
@@ -1169,7 +1156,7 @@ L Device:LED D2
 U 1 1 5F0720C7
 P 2550 2550
 F 0 "D2" V 2650 2500 50  0000 R CNN
-F 1 "LED Azul" V 2498 2433 50  0001 R CNN
+F 1 "LED A" V 2550 2850 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 2550 2550 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/000/HLMP-1585-pdf.php" H 2550 2550 50  0001 C CNN
 	1    2550 2550
@@ -1222,7 +1209,7 @@ U 1 1 5EEC1031
 P 1250 4350
 F 0 "J6" H 1400 4300 50  0000 C CNN
 F 1 "Conn_01x04" H 1150 4000 50  0001 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 1250 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1250 4350 50  0001 C CNN
 F 3 "~" H 1250 4350 50  0001 C CNN
 	1    1250 4350
 	-1   0    0    -1  
@@ -1254,8 +1241,8 @@ $Comp
 L Enc_Mag:Resistencia R10
 U 1 1 5EDC29F2
 P 2850 6400
-F 0 "R10" V 2850 6488 50  0000 L CNN
-F 1 "3K3 5%" V 2895 6488 50  0001 L CNN
+F 0 "R10" V 2800 6450 50  0000 L CNN
+F 1 "3K3" V 2900 6450 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2850 6500 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 2850 6500 50  0001 C CNN
 	1    2850 6400
@@ -1280,8 +1267,6 @@ Wire Wire Line
 	5450 6250 5400 6250
 Wire Wire Line
 	5400 6250 5400 6400
-Wire Wire Line
-	5650 7100 5650 6950
 Wire Wire Line
 	4000 4900 4000 4950
 $Comp
@@ -1424,7 +1409,7 @@ L Enc_Mag:LM2577 U3
 U 1 1 5EFE77A1
 P 4850 6400
 F 0 "U3" H 4850 6850 50  0000 C CNN
-F 1 "LM2577" H 4850 5950 50  0000 C CNN
+F 1 "LM2577" H 4850 5900 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 4850 6850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm2577.pdf" H 4850 6850 50  0001 C CNN
 	1    4850 6400
@@ -1434,8 +1419,8 @@ $Comp
 L Enc_Mag:Resistencia R9
 U 1 1 5EFE8746
 P 4200 6850
-F 0 "R9" V 4200 6938 50  0000 L CNN
-F 1 "2K2 1%" V 4245 6938 50  0001 L CNN
+F 0 "R9" V 4150 6900 50  0000 L CNN
+F 1 "2K2" V 4250 6900 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4200 6950 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 4200 6950 50  0001 C CNN
 	1    4200 6850
@@ -1710,37 +1695,13 @@ $Comp
 L Device:C C8
 U 1 1 5EBE214E
 P 10250 4850
-F 0 "C8" H 10100 4750 50  0000 L CNN
-F 1 "22pF" H 10365 4805 50  0001 L CNN
+F 0 "C8" H 10250 4950 50  0000 L CNN
+F 1 "22pF" H 10300 4750 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 10288 4700 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/037206ab57306304522b8b6930f01408/CCH-8P2.pdf" H 10250 4850 50  0001 C CNN
 	1    10250 4850
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	2250 750  10400 750 
-Wire Bus Line
-	2050 5350 7250 5350
-Wire Bus Line
-	8300 3950 8300 4200
-Wire Bus Line
-	3050 4000 3050 4300
-Wire Bus Line
-	1950 5450 1950 6400
-Wire Bus Line
-	1850 3450 1850 4350
-Wire Bus Line
-	7350 2950 7350 5250
-Wire Bus Line
-	2150 850  2150 2350
-Wire Bus Line
-	3900 850  3900 3250
-Wire Bus Line
-	10500 850  10500 3550
-Wire Bus Line
-	5300 3800 5300 4900
-Wire Bus Line
-	4250 4000 4250 4900
 Wire Wire Line
 	3350 1250 3800 1250
 Wire Wire Line
@@ -1757,4 +1718,43 @@ Wire Wire Line
 	3350 1250 3350 1850
 Wire Wire Line
 	2950 1100 2950 1850
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5EDEDB59
+P 2450 6100
+F 0 "BZ1" H 2650 6250 50  0000 C CNN
+F 1 "85db 2300Hz" H 2650 5900 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 2425 6200 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2171929.pdf" V 2425 6200 50  0001 C CNN
+	1    2450 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6450 5650 6650
+Wire Wire Line
+	5650 7050 5650 7100
+Wire Bus Line
+	2250 750  10400 750 
+Wire Bus Line
+	8300 3950 8300 4200
+Wire Bus Line
+	1950 5450 1950 6400
+Wire Bus Line
+	1850 3450 1850 4350
+Wire Bus Line
+	2150 850  2150 2350
+Wire Bus Line
+	3050 4000 3050 4300
+Wire Bus Line
+	2050 5350 7250 5350
+Wire Bus Line
+	3900 850  3900 3250
+Wire Bus Line
+	10500 850  10500 3550
+Wire Bus Line
+	7350 2950 7350 5250
+Wire Bus Line
+	5300 3800 5300 4900
+Wire Bus Line
+	4250 4000 4250 4900
 $EndSCHEMATC
