@@ -370,7 +370,7 @@ U 1 1 5ED39BE4
 P 4850 2850
 F 0 "K1" V 4850 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 4895 2806 50  0001 R CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4775 3025 50  0001 C CNN
+F 2 "EMS_huellas:SW_6x5mm_2C" H 4775 3025 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 4775 3025 50  0001 C CNN
 	1    4850 2850
 	0    -1   1    0   
@@ -553,7 +553,7 @@ U 1 1 5EBC7DA1
 P 7950 2850
 F 0 "K2" V 7950 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 7995 2806 50  0001 R CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7875 3025 50  0001 C CNN
+F 2 "EMS_huellas:SW_6x5mm_2C" H 7875 3025 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 7875 3025 50  0001 C CNN
 	1    7950 2850
 	0    -1   1    0   
@@ -647,7 +647,7 @@ U 1 1 5ED8724C
 P 1200 6800
 F 0 "K3" V 1200 6757 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 1245 6756 50  0001 R CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1125 6975 50  0001 C CNN
+F 2 "EMS_huellas:SW_6x5mm_2C" H 1125 6975 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 1125 6975 50  0001 C CNN
 	1    1200 6800
 	0    -1   1    0   
@@ -671,7 +671,7 @@ U 1 1 5EDA5472
 P 1550 6800
 F 0 "K4" V 1550 6757 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 1595 6756 50  0001 R CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1475 6975 50  0001 C CNN
+F 2 "EMS_huellas:SW_6x5mm_2C" H 1475 6975 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 1475 6975 50  0001 C CNN
 	1    1550 6800
 	0    -1   1    0   

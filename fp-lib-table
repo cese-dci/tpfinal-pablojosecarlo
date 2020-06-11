@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EMS_huellas)(type KiCad)(uri ${KIPRJMOD}/EMS_huellas.pretty)(options "")(descr ""))
+)
