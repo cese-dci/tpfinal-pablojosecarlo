@@ -1,10 +1,5 @@
-# tpfinal-pablojosecarlo
 
-DCI CESE 10º Cohorte 2020 Pablo José Carlos Alonso Castillo
-
-Escaner de Campos Magnéticos Superficiales (ECMag)
-
-Descripción del dispositivo:
+Escáner Magnético de Soldaduras:
 
 El objeto del scanner  es relevar los campos magnéticos a distancias de 1 a 3 mm de las superficies, correlacionando la posición de sensores magnéticos con la de un encoder absoluto y comunicar los resultados a una PC via cable USB, RS232 o por medios inalámbricos 
  
@@ -21,4 +16,3 @@ Puesto que el encoder funciona con 12V se ha dispuesto también de un convertido
 La salida a display i2c muestra las lecturas instantáneas de los campos magnéticos y la posición del encoder; buzzer de fuera de rango y dos pulsadores de seteo y nueva medición.
 
 Pablo J.C. Alonso Castillo
-

@@ -8,8 +8,8 @@ Title "Escaner Campos Magnéticos de Superficies para Soldaduras"
 Date "2020-05-11"
 Rev "1.8"
 Comp "Pablo J.C. Alonso Castilllo"
-Comment1 "UTN Seccional Delta"
-Comment2 "Doctorado en Ingeniería Mención Ensayos No Destructivos"
+Comment1 "Revisor: Mauricio Barroso Benavidez"
+Comment2 "Copyright: Pablo J.C. Alonso Castillo 2020 - Todos los derechos reservados "
 Comment3 "CESE 10º Cohorte"
 Comment4 "Diseño de Circuitos Impresos"
 $EndDescr
@@ -31,7 +31,8 @@ P 6950 4600
 F 0 "Y1" H 6950 4733 50  0000 C CNN
 F 1 "16MHz" H 6950 4500 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 6950 4600 50  0001 C CNN
-F 3 "http://www.imtcrystal.com/contents_kr/cry_hc49s.pdf" H 6950 4600 50  0001 C CNN
+F 3 "https://www.iqdfrequencyproducts.com/products/pn/LFXTAL027945Bulk.pdf" H 6950 4600 50  0001 C CNN
+F 4 "1923-1788-ND" H 6950 4600 50  0001 C CNN "Digikey"
 	1    6950 4600
 	-1   0    0    -1  
 $EndComp
@@ -89,7 +90,8 @@ P 10100 4650
 F 0 "Y2" H 10100 4783 50  0000 C CNN
 F 1 "20MHz" H 10100 4550 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 10100 4650 50  0001 C CNN
-F 3 "http://www.imtcrystal.com/contents_kr/cry_hc49s.pdf" H 10100 4650 50  0001 C CNN
+F 3 "https://www.iqdfrequencyproducts.com/products/pn/LFXTAL014948Bulk.pdf" H 10100 4650 50  0001 C CNN
+F 4 "1923-1441-ND" H 10100 4650 50  0001 C CNN "Digikey"
 	1    10100 4650
 	1    0    0    -1  
 $EndComp
@@ -133,7 +135,8 @@ P 4850 5850
 F 0 "L1" H 4700 6000 50  0000 C CNN
 F 1 "470uH" H 5000 6000 50  0000 C CNN
 F 2 "Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P" H 4850 6000 50  0001 C CNN
-F 3 "https://www.tme.com/Document/747e1786bbec2727d8c83a3ae1373b02/07HCP%2007HCP_T.pdf" H 4850 6000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/7447211471.pdf" H 4850 6000 50  0001 C CNN
+F 4 "445-174743-2-ND" H 4850 5850 50  0001 C CNN "Digikey"
 	1    4850 5850
 	1    0    0    -1  
 $EndComp
@@ -144,17 +147,16 @@ P 5450 5850
 F 0 "D1" H 5450 5975 50  0000 C CNN
 F 1 "1N5822" H 5450 5750 50  0000 C CNN
 F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 5450 5850 50  0001 C CNN
-F 3 "http://www.acdcshop.gr/content/1N5822.pdf" H 5450 5850 50  0001 C CNN
-F 4 "Y" H 5450 5850 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 5450 5850 50  0001 L CNN "Spice_Primitive"
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/d8/3f/72/85/bc/90/4e/f7/CD00001626.pdf/files/CD00001626.pdf/jcr:content/translations/en.CD00001626.pdf" H 5450 5850 50  0001 C CNN
+F 4 "497-11370-1-ND" H 5450 5850 50  0001 C CNN "Digikey"
+F 5 "Y" H 5450 5850 50  0001 L CNN "Spice_Netlist_Enabled"
+F 6 "V" H 5450 5850 50  0001 L CNN "Spice_Primitive"
 	1    5450 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 5850 5100 5850
 Connection ~ 5200 5850
-Wire Wire Line
-	6000 5850 6000 6350
 $Comp
 L Device:CP C3
 U 1 1 5EC081DA
@@ -371,7 +373,8 @@ P 4850 2850
 F 0 "K1" V 4850 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 4895 2806 50  0001 R CNN
 F 2 "EMS_huellas:SW_6x5mm_2C" H 4775 3025 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 4775 3025 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 4775 3025 50  0001 C CNN
+F 4 "Z7863CT-ND" V 4850 2850 50  0001 C CNN "Digikey"
 	1    4850 2850
 	0    -1   1    0   
 $EndComp
@@ -554,7 +557,8 @@ P 7950 2850
 F 0 "K2" V 7950 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 7995 2806 50  0001 R CNN
 F 2 "EMS_huellas:SW_6x5mm_2C" H 7875 3025 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 7875 3025 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 7875 3025 50  0001 C CNN
+F 4 "Z7863CT-ND" V 7950 2850 50  0001 C CNN "Digikey"
 	1    7950 2850
 	0    -1   1    0   
 $EndComp
@@ -626,21 +630,6 @@ F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 8250 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 2550 8250 2550
-Wire Wire Line
-	2050 2450 1800 2450
-Wire Wire Line
-	2050 2350 1800 2350
-$Comp
-L Enc_Mag:PIC18F2550-ISO U2
-U 1 1 5EB9246F
-P 9300 3350
-F 0 "U2" H 9300 4917 50  0000 C CNN
-F 1 "PIC18F2550-ISO" H 9300 4826 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 9300 3100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf" H 9300 2900 50  0001 C CNN
-	1    9300 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Enc_Mag:NA K3
 U 1 1 5ED8724C
@@ -648,7 +637,8 @@ P 1200 6800
 F 0 "K3" V 1200 6757 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 1245 6756 50  0001 R CNN
 F 2 "EMS_huellas:SW_6x5mm_2C" H 1125 6975 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 1125 6975 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1125 6975 50  0001 C CNN
+F 4 "Z7863CT-ND" V 1200 6800 50  0001 C CNN "Digikey"
 	1    1200 6800
 	0    -1   1    0   
 $EndComp
@@ -672,7 +662,8 @@ P 1550 6800
 F 0 "K4" V 1550 6757 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 1595 6756 50  0001 R CNN
 F 2 "EMS_huellas:SW_6x5mm_2C" H 1475 6975 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/en-b3f-13826.pdf" H 1475 6975 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1475 6975 50  0001 C CNN
+F 4 "Z7863CT-ND" V 1550 6800 50  0001 C CNN "Digikey"
 	1    1550 6800
 	0    -1   1    0   
 $EndComp
@@ -744,7 +735,8 @@ P 2650 6800
 F 0 "Q1" H 2841 6846 50  0000 L CNN
 F 1 "BC548" H 2841 6755 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 6725 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2650 6800 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" H 2650 6800 50  0001 L CNN
+F 4 "BC548-ND" H 2650 6800 50  0001 C CNN "Digikey"
 	1    2650 6800
 	-1   0    0    -1  
 $EndComp
@@ -797,8 +789,6 @@ F 3 "" H 1500 2850 50  0001 C CNN
 	1    1500 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 2750 1500 2850
 $Comp
 L Device:LED D3
 U 1 1 5EFEAFE5
@@ -903,9 +893,10 @@ L Connector:Barrel_Jack_Switch J5
 U 1 1 5ED6F1F2
 P 1500 1400
 F 0 "J5" H 1250 1400 50  0000 R CNN
-F 1 "Barrel_Jack_SW" H 1750 1150 50  0000 R CNN
+F 1 "Barrel_Jack_SW" H 1700 1150 50  0000 R CNN
 F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1550 1360 50  0001 C CNN
 F 3 "https://www.cuidevices.com/product/resource/pj-002a.pdf" H 1550 1360 50  0001 C CNN
+F 4 "CP-202A-ND" H 1500 1400 50  0001 C CNN "Digikey"
 	1    1500 1400
 	1    0    0    1   
 $EndComp
@@ -927,7 +918,7 @@ L power:+5V #PWR0101
 U 1 1 5EBAAE93
 P 1800 1200
 F 0 "#PWR0101" H 1800 1050 50  0001 C CNN
-F 1 "+5V" H 1815 1373 50  0000 C CNN
+F 1 "+5V" H 1850 1400 50  0000 C CNN
 F 2 "" H 1800 1200 50  0001 C CNN
 F 3 "" H 1800 1200 50  0001 C CNN
 	1    1800 1200
@@ -995,7 +986,8 @@ P 2250 4000
 F 0 "J2" H 2400 4000 50  0000 C CNN
 F 1 "Conn_01x05" H 2150 3650 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2250 4000 50  0001 C CNN
-F 3 "~" H 2250 4000 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/C001XX_M20_Series_Connectors.pdf" H 2250 4000 50  0001 C CNN
+F 4 "952-3302-ND" H 2250 4000 50  0001 C CNN "Digikey"
 	1    2250 4000
 	-1   0    0    -1  
 $EndComp
@@ -1006,7 +998,8 @@ P 2250 4700
 F 0 "J3" H 2400 4650 50  0000 C CNN
 F 1 "Conn_01x04" H 2150 4350 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2250 4700 50  0001 C CNN
-F 3 "~" H 2250 4700 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/C001XX_M20_Series_Connectors.pdf" H 2250 4700 50  0001 C CNN
+F 4 "952-3302-ND" H 2250 4700 50  0001 C CNN "Digikey"
 	1    2250 4700
 	-1   0    0    -1  
 $EndComp
@@ -1017,7 +1010,8 @@ P 3800 4300
 F 0 "J1" H 3950 4300 50  0000 C CNN
 F 1 "Conn_01x12" H 3700 3550 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3800 4300 50  0001 C CNN
-F 3 "~" H 3800 4300 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/C001XX_M20_Series_Connectors.pdf" H 3800 4300 50  0001 C CNN
+F 4 "952-3302-ND" H 3800 4300 50  0001 C CNN "Digikey"
 	1    3800 4300
 	-1   0    0    -1  
 $EndComp
@@ -1032,77 +1026,42 @@ Wire Wire Line
 Wire Wire Line
 	8250 1800 8250 2050
 $Comp
-L power:+5V #PWR0117
-U 1 1 5EE4031B
-P 9050 5750
-F 0 "#PWR0117" H 9050 5600 50  0001 C CNN
-F 1 "+5V" H 9100 5900 50  0000 C CNN
-F 2 "" H 9050 5750 50  0001 C CNN
-F 3 "" H 9050 5750 50  0001 C CNN
-	1    9050 5750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EE40DE5
-P 9050 5850
-F 0 "#FLG0101" H 9050 5925 50  0001 C CNN
-F 1 "PWR_FLAG" H 9050 6023 50  0000 C CNN
-F 2 "" H 9050 5850 50  0001 C CNN
-F 3 "~" H 9050 5850 50  0001 C CNN
-	1    9050 5850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9050 5750 9050 5850
-$Comp
-L power:GND #PWR0140
-U 1 1 5EE49337
-P 8750 5850
-F 0 "#PWR0140" H 8750 5600 50  0001 C CNN
-F 1 "GND" H 8755 5677 50  0001 C CNN
-F 2 "" H 8750 5850 50  0001 C CNN
-F 3 "" H 8750 5850 50  0001 C CNN
-	1    8750 5850
+P 2050 1200
+F 0 "#FLG0101" H 2050 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 1400 50  0000 C CNN
+F 2 "" H 2050 1200 50  0001 C CNN
+F 3 "~" H 2050 1200 50  0001 C CNN
+	1    2050 1200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2050 1300 2050 1200
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5EE4A0CA
-P 8750 5750
-F 0 "#FLG0102" H 8750 5825 50  0001 C CNN
-F 1 "PWR_FLAG" H 8750 5900 50  0000 C CNN
-F 2 "" H 8750 5750 50  0001 C CNN
-F 3 "~" H 8750 5750 50  0001 C CNN
-	1    8750 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0141
-U 1 1 5EE5351B
-P 8450 5750
-F 0 "#PWR0141" H 8450 5600 50  0001 C CNN
-F 1 "+12V" H 8400 5900 50  0000 C CNN
-F 2 "" H 8450 5750 50  0001 C CNN
-F 3 "" H 8450 5750 50  0001 C CNN
-	1    8450 5750
+P 1950 2700
+F 0 "#FLG0102" H 1950 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 1950 2850 50  0000 C CNN
+F 2 "" H 1950 2700 50  0001 C CNN
+F 3 "~" H 1950 2700 50  0001 C CNN
+	1    1950 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5EE5790E
-P 8450 5850
-F 0 "#FLG0103" H 8450 5925 50  0001 C CNN
-F 1 "PWR_FLAG" H 8450 6023 50  0000 C CNN
-F 2 "" H 8450 5850 50  0001 C CNN
-F 3 "~" H 8450 5850 50  0001 C CNN
-	1    8450 5850
-	-1   0    0    1   
+P 6000 5800
+F 0 "#FLG0103" H 6000 5875 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 5973 50  0000 C CNN
+F 2 "" H 6000 5800 50  0001 C CNN
+F 3 "~" H 6000 5800 50  0001 C CNN
+	1    6000 5800
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 5750 8450 5850
-Wire Wire Line
-	8750 5750 8750 5850
+	1950 2700 1950 2800
 $Comp
 L power:+5V #PWR0142
 U 1 1 5EE9BAC6
@@ -1122,6 +1081,7 @@ F 0 "J4" H 1200 2350 50  0000 C CNN
 F 1 "USB_B" H 1500 2750 50  0000 C CNN
 F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1650 2300 50  0001 C CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0670689011_IO_CONNECTORS.pdf" H 1650 2300 50  0001 C CNN
+F 4 "WM12785-ND" H 1500 2350 50  0001 C CNN "Digikey"
 	1    1500 2350
 	1    0    0    -1  
 $EndComp
@@ -1167,7 +1127,7 @@ L power:+5V #PWR0138
 U 1 1 5ED88D91
 P 2550 1200
 F 0 "#PWR0138" H 2550 1050 50  0001 C CNN
-F 1 "+5V" H 2565 1373 50  0000 C CNN
+F 1 "+5V" H 2550 1400 50  0000 C CNN
 F 2 "" H 2550 1200 50  0001 C CNN
 F 3 "" H 2550 1200 50  0001 C CNN
 	1    2550 1200
@@ -1210,7 +1170,8 @@ P 1250 4350
 F 0 "J6" H 1400 4300 50  0000 C CNN
 F 1 "Conn_01x04" H 1150 4000 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1250 4350 50  0001 C CNN
-F 3 "~" H 1250 4350 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/C001XX_M20_Series_Connectors.pdf" H 1250 4350 50  0001 C CNN
+F 4 "952-3302-ND" H 1250 4350 50  0001 C CNN "Digikey"
 	1    1250 4350
 	-1   0    0    -1  
 $EndComp
@@ -1269,17 +1230,6 @@ Wire Wire Line
 	5400 6250 5400 6400
 Wire Wire Line
 	4000 4900 4000 4950
-$Comp
-L Enc_Mag:ATmega328P-PU U1
-U 1 1 5EB76DFF
-P 6150 3350
-F 0 "U1" H 6150 4917 50  0000 C CNN
-F 1 "ATmega328P-PU" H 6150 4826 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 7100 1750 50  0001 C CIN
-F 3 "https://datasheetspdf.com/pdf-file/1057331/ATMEL/ATmega328/1" H 6150 3800 50  0001 C CNN
-	1    6150 3350
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	4150 3900 4250 4000
 Entry Wire Line
@@ -1412,6 +1362,7 @@ F 0 "U3" H 4850 6850 50  0000 C CNN
 F 1 "LM2577" H 4850 5900 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 4850 6850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm2577.pdf" H 4850 6850 50  0001 C CNN
+F 4 "LM2577SX-ADJ/NOPBTR-ND" H 4850 6400 50  0001 C CNN "Digikey"
 	1    4850 6400
 	1    0    0    -1  
 $EndComp
@@ -1460,9 +1411,9 @@ Wire Wire Line
 Wire Wire Line
 	9950 3650 10400 3650
 Entry Wire Line
-	2150 2250 2050 2350
+	2350 2250 2250 2350
 Entry Wire Line
-	2150 2350 2050 2450
+	2350 2350 2250 2450
 Text Label 10200 2300 0    50   ~ 0
 D+
 Text Label 10200 2400 0    50   ~ 0
@@ -1546,7 +1497,7 @@ Entry Bus Bus
 Entry Bus Bus
 	2050 5350 1950 5450
 Entry Bus Bus
-	2250 750  2150 850 
+	2450 750  2350 850 
 Entry Bus Bus
 	4000 750  3900 850 
 Wire Bus Line
@@ -1632,45 +1583,45 @@ Wire Bus Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EDD0736
-P 9950 5650
-F 0 "H1" H 10050 5650 50  0000 L CNN
-F 1 "MountingHole" H 10050 5605 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9950 5650 50  0001 C CNN
-F 3 "~" H 9950 5650 50  0001 C CNN
-	1    9950 5650
+P 9100 5500
+F 0 "H1" H 9200 5500 50  0000 L CNN
+F 1 "MountingHole" H 9200 5455 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9100 5500 50  0001 C CNN
+F 3 "~" H 9100 5500 50  0001 C CNN
+	1    9100 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5EDD454C
-P 10250 5650
-F 0 "H2" H 10350 5650 50  0000 L CNN
-F 1 "MountingHole" H 10350 5605 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10250 5650 50  0001 C CNN
-F 3 "~" H 10250 5650 50  0001 C CNN
-	1    10250 5650
+P 9500 5500
+F 0 "H2" H 9600 5500 50  0000 L CNN
+F 1 "MountingHole" H 9600 5455 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5500 50  0001 C CNN
+F 3 "~" H 9500 5500 50  0001 C CNN
+	1    9500 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5EDE3BFF
-P 9950 6000
-F 0 "H3" H 10050 6000 50  0000 L CNN
-F 1 "MountingHole" H 10050 5955 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9950 6000 50  0001 C CNN
-F 3 "~" H 9950 6000 50  0001 C CNN
-	1    9950 6000
+P 9100 5850
+F 0 "H3" H 9200 5850 50  0000 L CNN
+F 1 "MountingHole" H 9200 5805 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9100 5850 50  0001 C CNN
+F 3 "~" H 9100 5850 50  0001 C CNN
+	1    9100 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5EDE3C09
-P 10250 6000
-F 0 "H4" H 10350 6000 50  0000 L CNN
-F 1 "MountingHole" H 10350 5955 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10250 6000 50  0001 C CNN
-F 3 "~" H 10250 6000 50  0001 C CNN
-	1    10250 6000
+P 9500 5850
+F 0 "H4" H 9600 5850 50  0000 L CNN
+F 1 "MountingHole" H 9600 5805 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5850 50  0001 C CNN
+F 3 "~" H 9500 5850 50  0001 C CNN
+	1    9500 5850
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -1725,7 +1676,8 @@ P 2450 6100
 F 0 "BZ1" H 2650 6250 50  0000 C CNN
 F 1 "85db 2300Hz" H 2650 5900 50  0000 C CNN
 F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 2425 6200 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2171929.pdf" V 2425 6200 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/cst-931ap.pdf" V 2425 6200 50  0001 C CNN
+F 4 "102-1458-ND" H 2450 6100 50  0001 C CNN "Digikey"
 	1    2450 6100
 	-1   0    0    -1  
 $EndComp
@@ -1733,8 +1685,48 @@ Wire Wire Line
 	5650 6450 5650 6650
 Wire Wire Line
 	5650 7050 5650 7100
-Wire Bus Line
-	2250 750  10400 750 
+Wire Wire Line
+	6000 5850 6000 5800
+Wire Wire Line
+	6000 5850 6000 6350
+Wire Wire Line
+	1950 2800 1500 2800
+Wire Wire Line
+	1500 2750 1500 2800
+Connection ~ 1500 2800
+Wire Wire Line
+	1500 2800 1500 2850
+Wire Wire Line
+	1800 2450 2250 2450
+Wire Wire Line
+	1800 2350 2250 2350
+Wire Wire Line
+	1800 1300 2050 1300
+Connection ~ 1800 1300
+$Comp
+L Enc_Mag:ATMega328_Enc_Mag U1
+U 1 1 5EFA2031
+P 6150 3350
+F 0 "U1" H 6150 4917 50  0000 C CNN
+F 1 "ATMega328" H 6150 4826 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 6200 3075 50  0001 C CNN
+F 3 "https://datasheetspdf.com/pdf-file/1057331/ATMEL/ATmega328/1" H 6200 3075 50  0001 C CNN
+F 4 "ATMEGA328-PU-ND" H 6150 3350 50  0001 C CNN "Digikey"
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Enc_Mag:PIC18F2550_Enc_Mag U2
+U 1 1 5EFAD4A2
+P 9300 3350
+F 0 "U2" H 9300 4917 50  0000 C CNN
+F 1 "PIC18F2550" H 9300 4826 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 9300 3350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/39632b.pdf" H 9300 3350 50  0001 C CNN
+F 4 "PIC18F2550-I/SP-ND" H 9300 3350 50  0001 C CNN "Digikey"
+	1    9300 3350
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8300 3950 8300 4200
 Wire Bus Line
@@ -1742,7 +1734,9 @@ Wire Bus Line
 Wire Bus Line
 	1850 3450 1850 4350
 Wire Bus Line
-	2150 850  2150 2350
+	2350 850  2350 2350
+Wire Bus Line
+	2450 750  10400 750 
 Wire Bus Line
 	3050 4000 3050 4300
 Wire Bus Line
@@ -1757,4 +1751,8 @@ Wire Bus Line
 	5300 3800 5300 4900
 Wire Bus Line
 	4250 4000 4250 4900
+Text Notes 8800 4950 0    50   ~ 0
+Comunicación USB, UART \ny Logueo de Datos
+Text Notes 5650 4950 0    50   ~ 0
+Adquisicion de datos y \nmanejo de interfaces
 $EndSCHEMATC
