@@ -1016,7 +1016,7 @@ F 4 "952-3302-ND" H 3800 4300 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 Text Notes 1200 5200 0    50   ~ 0
-Conectores Sensor Magnético  Display e Inalambrico
+Conectores Sensor Magnético,  Display e Inalambrico
 Text Notes 950  3150 0    50   ~ 0
 Ficha de Alimentación, Ficha USB y leds Rx Tx y Pwr
 Wire Wire Line
@@ -1727,6 +1727,10 @@ F 4 "PIC18F2550-I/SP-ND" H 9300 3350 50  0001 C CNN "Digikey"
 	1    9300 3350
 	1    0    0    -1  
 $EndComp
+Text Notes 8800 4950 0    50   ~ 0
+Comunicación USB, UART \ny Logueo de Datos
+Text Notes 5650 4950 0    50   ~ 0
+Adquisicion de datos y \nmanejo de interfaces
 Wire Bus Line
 	8300 3950 8300 4200
 Wire Bus Line
@@ -1751,8 +1755,4 @@ Wire Bus Line
 	5300 3800 5300 4900
 Wire Bus Line
 	4250 4000 4250 4900
-Text Notes 8800 4950 0    50   ~ 0
-Comunicación USB, UART \ny Logueo de Datos
-Text Notes 5650 4950 0    50   ~ 0
-Adquisicion de datos y \nmanejo de interfaces
 $EndSCHEMATC

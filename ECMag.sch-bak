@@ -1751,4 +1751,8 @@ Wire Bus Line
 	5300 3800 5300 4900
 Wire Bus Line
 	4250 4000 4250 4900
+Text Notes 8800 4950 0    50   ~ 0
+Comunicación USB, UART \ny Logueo de Datos
+Text Notes 5650 4950 0    50   ~ 0
+Adquisicion de datos y \nmanejo de interfaces
 $EndSCHEMATC
