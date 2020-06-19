@@ -9,7 +9,7 @@ Date "2020-05-11"
 Rev "1.8"
 Comp "Pablo J.C. Alonso Castilllo"
 Comment1 "Revisor: Mauricio Barroso Benavidez"
-Comment2 "Copyright: Pablo J.C. Alonso Castillo 2020 - Todos los derechos reservados "
+Comment2 "Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional."
 Comment3 "CESE 10º Cohorte"
 Comment4 "Diseño de Circuitos Impresos"
 $EndDescr
@@ -1251,9 +1251,9 @@ a1
 Text Label 4050 4000 0    50   ~ 0
 a2
 Text Label 5400 3700 0    50   ~ 0
-a1
+a8
 Text Label 5400 3800 0    50   ~ 0
-a2
+a6
 Entry Wire Line
 	4150 4100 4250 4200
 Entry Wire Line
@@ -1335,17 +1335,17 @@ a9
 Text Label 4050 4800 0    50   ~ 0
 a10
 Text Label 5400 3900 0    50   ~ 0
-a3
-Text Label 5400 4000 0    50   ~ 0
 a4
+Text Label 5400 4000 0    50   ~ 0
+a2
 Text Label 5400 4100 0    50   ~ 0
-a5
+a1
 Text Label 5400 4200 0    50   ~ 0
-a6
+a3
 Text Label 5400 4300 0    50   ~ 0
-a7
+a5
 Text Label 5400 4400 0    50   ~ 0
-a8
+a7
 Text Label 5400 4500 0    50   ~ 0
 a9
 Text Label 5400 4600 0    50   ~ 0
