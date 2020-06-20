@@ -366,18 +366,6 @@ Wire Wire Line
 	4850 3050 4850 3150
 Wire Wire Line
 	4850 2550 4850 2650
-$Comp
-L Enc_Mag:NA K1
-U 1 1 5ED39BE4
-P 4850 2850
-F 0 "K1" V 4850 2807 50  0000 R CNN
-F 1 "Tactil Switch B3F NA" V 4895 2806 50  0001 R CNN
-F 2 "EMS_huellas:SW_6x5mm_2C" H 4775 3025 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 4775 3025 50  0001 C CNN
-F 4 "Z7863CT-ND" V 4850 2850 50  0001 C CNN "Digikey"
-	1    4850 2850
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	5200 6100 5200 5850
 $Comp
@@ -556,9 +544,9 @@ U 1 1 5EBC7DA1
 P 7950 2850
 F 0 "K2" V 7950 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 7995 2806 50  0001 R CNN
-F 2 "EMS_huellas:SW_6x5mm_2C" H 7875 3025 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7875 3025 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 7875 3025 50  0001 C CNN
-F 4 "Z7863CT-ND" V 7950 2850 50  0001 C CNN "Digikey"
+F 4 "B3F-1060" V 7950 2850 50  0001 C CNN "Digikey"
 	1    7950 2850
 	0    -1   1    0   
 $EndComp
@@ -630,18 +618,6 @@ F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 8250 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 2550 8250 2550
-$Comp
-L Enc_Mag:NA K3
-U 1 1 5ED8724C
-P 1200 6800
-F 0 "K3" V 1200 6757 50  0000 R CNN
-F 1 "Tactil Switch B3F NA" V 1245 6756 50  0001 R CNN
-F 2 "EMS_huellas:SW_6x5mm_2C" H 1125 6975 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1125 6975 50  0001 C CNN
-F 4 "Z7863CT-ND" V 1200 6800 50  0001 C CNN "Digikey"
-	1    1200 6800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	1200 7000 1200 7100
 $Comp
@@ -654,18 +630,6 @@ F 2 "" H 1200 7100 50  0001 C CNN
 F 3 "" H 1200 7100 50  0001 C CNN
 	1    1200 7100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Enc_Mag:NA K4
-U 1 1 5EDA5472
-P 1550 6800
-F 0 "K4" V 1550 6757 50  0000 R CNN
-F 1 "Tactil Switch B3F NA" V 1595 6756 50  0001 R CNN
-F 2 "EMS_huellas:SW_6x5mm_2C" H 1475 6975 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1475 6975 50  0001 C CNN
-F 4 "Z7863CT-ND" V 1550 6800 50  0001 C CNN "Digikey"
-	1    1550 6800
-	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	1550 7000 1550 7100
@@ -1731,6 +1695,42 @@ Text Notes 8800 4950 0    50   ~ 0
 Comunicación USB, UART \ny Logueo de Datos
 Text Notes 5650 4950 0    50   ~ 0
 Adquisicion de datos y \nmanejo de interfaces
+$Comp
+L Enc_Mag:NA K1
+U 1 1 5F0165AB
+P 4850 2850
+F 0 "K1" V 4850 2807 50  0000 R CNN
+F 1 "Tactil Switch B3F NA" V 4895 2806 50  0001 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4775 3025 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 4775 3025 50  0001 C CNN
+F 4 "B3F-1060" V 4850 2850 50  0001 C CNN "Digikey"
+	1    4850 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L Enc_Mag:NA K4
+U 1 1 5F030342
+P 1550 6800
+F 0 "K4" V 1550 6757 50  0000 R CNN
+F 1 "Tactil Switch B3F NA" V 1595 6756 50  0001 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1475 6975 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1475 6975 50  0001 C CNN
+F 4 "B3F-1060" V 1550 6800 50  0001 C CNN "Digikey"
+	1    1550 6800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Enc_Mag:NA K3
+U 1 1 5F0336CA
+P 1200 6800
+F 0 "K3" V 1200 6757 50  0000 R CNN
+F 1 "Tactil Switch B3F NA" V 1245 6756 50  0001 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1125 6975 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1125 6975 50  0001 C CNN
+F 4 "B3F-1060" V 1200 6800 50  0001 C CNN "Digikey"
+	1    1200 6800
+	0    -1   1    0   
+$EndComp
 Wire Bus Line
 	8300 3950 8300 4200
 Wire Bus Line
