@@ -1161,7 +1161,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 5850 3850 5800
 Connection ~ 3850 5850
-NoConn ~ 1400 2750
 $Comp
 L Enc_Mag:Resistencia R10
 U 1 1 5EDC29F2
@@ -1731,6 +1730,10 @@ F 4 "B3F-1060" V 1200 6800 50  0001 C CNN "Digikey"
 	1    1200 6800
 	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	1400 2750 1400 2800
+Wire Wire Line
+	1400 2800 1500 2800
 Wire Bus Line
 	8300 3950 8300 4200
 Wire Bus Line
