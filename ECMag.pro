@@ -1,4 +1,4 @@
-update=jue 25 jun 2020 17:19:45 -03
+update=jue 25 jun 2020 20:22:56 -03
 version=1
 last_client=kicad
 [general]
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Potencia
 Clearance=0.2
-TrackWidth=1
+TrackWidth=0.45
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
