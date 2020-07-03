@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Escaner Campos Magnéticos de Superficies para Soldaduras"
+Title "Escáner de campos magnéticos superficiales para soldaduras"
 Date "2020-05-11"
 Rev "1.8"
 Comp "Pablo J.C. Alonso Castilllo"
 Comment1 "Revisor: Mauricio Barroso Benavidez"
-Comment2 "Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional."
+Comment2 "Esta obra está bajo licencia BSD Modificada - https://es.wikipedia.org/wiki/Licencia_BSD"
 Comment3 "CESE 10º Cohorte"
 Comment4 "Diseño de Circuitos Impresos"
 $EndDescr
@@ -1568,23 +1568,23 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5EDE3BFF
-P 9100 5850
-F 0 "H3" H 9200 5850 50  0000 L CNN
-F 1 "MountingHole" H 9200 5805 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9100 5850 50  0001 C CNN
-F 3 "~" H 9100 5850 50  0001 C CNN
-	1    9100 5850
+P 9100 5900
+F 0 "H3" H 9200 5900 50  0000 L CNN
+F 1 "MountingHole" H 9200 5855 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9100 5900 50  0001 C CNN
+F 3 "~" H 9100 5900 50  0001 C CNN
+	1    9100 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5EDE3C09
-P 9500 5850
-F 0 "H4" H 9600 5850 50  0000 L CNN
-F 1 "MountingHole" H 9600 5805 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5850 50  0001 C CNN
-F 3 "~" H 9500 5850 50  0001 C CNN
-	1    9500 5850
+P 9500 5900
+F 0 "H4" H 9600 5900 50  0000 L CNN
+F 1 "MountingHole" H 9600 5855 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5900 50  0001 C CNN
+F 3 "~" H 9500 5900 50  0001 C CNN
+	1    9500 5900
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -1758,4 +1758,37 @@ Wire Bus Line
 	5300 3800 5300 4900
 Wire Bus Line
 	4250 4000 4250 4900
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5EFEFF87
+P 9950 5500
+F 0 "FID1" H 10035 5500 50  0000 L CNN
+F 1 "Fiducial" H 10035 5455 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9950 5500 50  0001 C CNN
+F 3 "~" H 9950 5500 50  0001 C CNN
+	1    9950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5EFF0DEB
+P 9950 5700
+F 0 "FID2" H 10035 5700 50  0000 L CNN
+F 1 "Fiducial" H 10035 5655 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9950 5700 50  0001 C CNN
+F 3 "~" H 9950 5700 50  0001 C CNN
+	1    9950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5EFF195F
+P 9950 5900
+F 0 "FID3" H 10035 5900 50  0000 L CNN
+F 1 "Fiducial" H 10035 5855 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9950 5900 50  0001 C CNN
+F 3 "~" H 9950 5900 50  0001 C CNN
+	1    9950 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
