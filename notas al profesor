@@ -1,0 +1,10 @@
+1.- Reemplaxado K por Sw en el esquemático.
+2.- Tamaño de vias por defecto pasado de 0.8/0.4 a 0.9/0.45
+3.- DRC Pista subida a 0.45, corregido margen general de 0.2 a 0.25, Pads ovalados ok.
+4.- Conectores y componentes: coincido con que k3 y k4 (ahora Sw3 y Sw4 ) quedan muy incómodos, pero moverlos a la perifieria implicaba un rediseño con un costo en tiempo del que no dispongo. Además pesó en la decisión el hecho de dejarlos el hecho de que son los resets de los micros y si todo va ok con el firmware no serán necesarios y se podrán eliminar en el futuro.
+5.- Serigrafía Referencia: Ocultadas las referencias  de agujeros y fiduciales.
+6.- Serigrafía Nombre fecha y versión: Movidas de la cara inferior a la superior.
+7.- Leyenda Diseñado en XXX: Colocada en cara inferior con cobre.
+8.- Serigrafía ahora solo en cara superior.
+9.- La cota ahora llega hasta el elemento que mide.
+10.- Modelos 3D ahora dentro del proyecto. Archivo Shapes3D
