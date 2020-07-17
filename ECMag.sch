@@ -539,10 +539,10 @@ F 3 "" H 8550 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Enc_Mag:NA K2
+L Enc_Mag:NA Sw2
 U 1 1 5EBC7DA1
 P 7950 2850
-F 0 "K2" V 7950 2807 50  0000 R CNN
+F 0 "Sw2" V 7950 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 7995 2806 50  0001 R CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7875 3025 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 7875 3025 50  0001 C CNN
@@ -1695,10 +1695,10 @@ Comunicación USB, UART \ny Logueo de Datos
 Text Notes 5650 4950 0    50   ~ 0
 Adquisicion de datos y \nmanejo de interfaces
 $Comp
-L Enc_Mag:NA K1
+L Enc_Mag:NA Sw1
 U 1 1 5F0165AB
 P 4850 2850
-F 0 "K1" V 4850 2807 50  0000 R CNN
+F 0 "Sw1" V 4850 2807 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 4895 2806 50  0001 R CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4775 3025 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 4775 3025 50  0001 C CNN
@@ -1707,10 +1707,10 @@ F 4 "B3F-1060" V 4850 2850 50  0001 C CNN "Digikey"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Enc_Mag:NA K4
+L Enc_Mag:NA Sw4
 U 1 1 5F030342
 P 1550 6800
-F 0 "K4" V 1550 6757 50  0000 R CNN
+F 0 "Sw4" V 1550 6757 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 1595 6756 50  0001 R CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1475 6975 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1475 6975 50  0001 C CNN
@@ -1719,10 +1719,10 @@ F 4 "B3F-1060" V 1550 6800 50  0001 C CNN "Digikey"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Enc_Mag:NA K3
+L Enc_Mag:NA Sw3
 U 1 1 5F0336CA
 P 1200 6800
-F 0 "K3" V 1200 6757 50  0000 R CNN
+F 0 "Sw3" V 1200 6757 50  0000 R CNN
 F 1 "Tactil Switch B3F NA" V 1245 6756 50  0001 R CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1125 6975 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/omron-electronics-inc-emc-div/B3F-6025/Z7863CT-ND/7612384" H 1125 6975 50  0001 C CNN
@@ -1734,30 +1734,6 @@ Wire Wire Line
 	1400 2750 1400 2800
 Wire Wire Line
 	1400 2800 1500 2800
-Wire Bus Line
-	8300 3950 8300 4200
-Wire Bus Line
-	1950 5450 1950 6400
-Wire Bus Line
-	1850 3450 1850 4350
-Wire Bus Line
-	2350 850  2350 2350
-Wire Bus Line
-	2450 750  10400 750 
-Wire Bus Line
-	3050 4000 3050 4300
-Wire Bus Line
-	2050 5350 7250 5350
-Wire Bus Line
-	3900 850  3900 3250
-Wire Bus Line
-	10500 850  10500 3550
-Wire Bus Line
-	7350 2950 7350 5250
-Wire Bus Line
-	5300 3800 5300 4900
-Wire Bus Line
-	4250 4000 4250 4900
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5EFEFF87
@@ -1791,4 +1767,28 @@ F 3 "~" H 9950 5900 50  0001 C CNN
 	1    9950 5900
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8300 3950 8300 4200
+Wire Bus Line
+	1950 5450 1950 6400
+Wire Bus Line
+	1850 3450 1850 4350
+Wire Bus Line
+	2350 850  2350 2350
+Wire Bus Line
+	2450 750  10400 750 
+Wire Bus Line
+	3050 4000 3050 4300
+Wire Bus Line
+	2050 5350 7250 5350
+Wire Bus Line
+	3900 850  3900 3250
+Wire Bus Line
+	10500 850  10500 3550
+Wire Bus Line
+	7350 2950 7350 5250
+Wire Bus Line
+	5300 3800 5300 4900
+Wire Bus Line
+	4250 4000 4250 4900
 $EndSCHEMATC
